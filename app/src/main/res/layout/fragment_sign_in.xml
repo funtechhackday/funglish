@@ -76,7 +76,8 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:textColor="@color/text_color1"
-            android:text="SIGN IN"/>
+            android:text="SIGN IN"
+            android:id="@+id/sign_in"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -94,6 +95,7 @@
                 android:padding="5dp"
                 android:gravity="center"
                 android:layout_weight="1"
+                android:id="@+id/sign_in_gmail"
                 android:text="Sign in with \n Gmail"/>
 
             <TextView
@@ -104,6 +106,7 @@
                 android:layout_margin="10dp"
                 android:padding="5dp"
                 android:gravity="center"
+                android:id="@+id/sign_in_facebook"
                 android:layout_weight="1"
                 android:text="Sign in with \n Facebook"/>
 
@@ -116,6 +119,7 @@
                 android:padding="5dp"
                 android:gravity="center"
                 android:layout_weight="1"
+                android:id="@+id/sign_in_vk"
                 android:text="Sign in with \n VK"/>
         </LinearLayout>
 

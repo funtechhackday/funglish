@@ -14,6 +14,10 @@ import android.widget.TextView;
 public class SignInFragment extends Fragment {
 
     private TextView mSignUpTextView;
+    private TextView mSignInTextView;
+    private TextView mSignInVkTextView;
+    private TextView mSignInFacebookTextView;
+    private TextView mSignInGmailTextView;
 
     public SignInFragment() {
         // Required empty public constructor
@@ -27,8 +31,41 @@ public class SignInFragment extends Fragment {
 
         View rootView = inflater.inflate(R.layout.fragment_sign_in, container, false);
         mSignUpTextView = rootView.findViewById(R.id.sign_up_id);
+        mSignInTextView = rootView.findViewById(R.id.sign_in);
+        mSignInFacebookTextView = rootView.findViewById(R.id.sign_in_facebook);
+        mSignInGmailTextView = rootView.findViewById(R.id.sign_in_gmail);
+        mSignInVkTextView = rootView.findViewById(R.id.sign_in_vk);
 
         mSignUpTextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), WelcomeActivity1.class);
+                startActivity(intent);
+            }
+        });
+
+        mSignInTextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), WelcomeActivity1.class);
+                startActivity(intent);
+            }
+        });
+        mSignInFacebookTextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), WelcomeActivity1.class);
+                startActivity(intent);
+            }
+        });
+        mSignInGmailTextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), WelcomeActivity1.class);
+                startActivity(intent);
+            }
+        });
+        mSignInVkTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getActivity(), WelcomeActivity1.class);

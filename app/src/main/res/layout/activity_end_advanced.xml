@@ -16,7 +16,7 @@
     android:layout_marginLeft="6dp"
     android:layout_marginRight="6dp"
     android:layout_marginBottom="16dp"
-    card_view:cardBackgroundColor="#00aaa1a1">
+    card_view:cardBackgroundColor="#36ffffff">
 
     <RelativeLayout
         android:layout_width="250dp"
