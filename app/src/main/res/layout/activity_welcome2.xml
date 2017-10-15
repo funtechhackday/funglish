@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.adeogo.funglish.WelcomeActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FE"
+            android:fontFamily="avenir"
+            android:textSize="70sp"
+            android:gravity="center"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FUNGLISH"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_marginBottom="1dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skip"
+        android:id="@+id/skip_2"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/rounded_edittext"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/next_2"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/rounded_edittext"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

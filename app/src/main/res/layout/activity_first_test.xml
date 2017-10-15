@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context="com.example.adeogo.funglish.FirstTestActivity">
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        card_view:cardCornerRadius="10dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_margin="15dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:text="Comparing and Contrasting"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Comparing and contrasting
+– modifying comparatives
+
+When we want to talk about similarities
+and differences we can use adjectives
+in their comparative forms …
+
+Max is taller than Judy.
+You’re more intelligent than me.
+or we can use (not) as (adjective) as
+
+Her hair is as long as mine.
+This one’s not as interesting as his first
+book.
+
+Remember that ‘not as interesting as’
+means ‘less interesting than’.
+We can also use expressions like
+different from, similar to and the same
+as.
+
+She’s very different from her sister.
+They’re very different.
+Sri Lankan food is similar to Indian
+food. They’re similar.
+Andrew is the same age as Lily.
+Their ages are the same.
+
+We use same with nouns.
+Modifying comparisons
+
+A big difference – much, a lot, far
+
+We can modify comparative adjectives
+to show that there is a big difference
+between things.
+
+Sales in July were much higher than
+sales in June.
+She’s a lot taller than you.
+This one’s far more expensive than the
+blue one.
+We can also say that things are
+completely or totally different from
+each other.
+
+They may be twins but they’re
+completely different from each other.
+A small difference – slightly, a little, a
+bit, not much
+
+We can show there is a small difference.
+
+Sales in August were slightly lower
+than sales in July.
+You’re a bit younger than me.
+These are not much more expensive
+than those.
+No difference – exactly, more or less,
+roughly
+
+We can show that there is no difference
+or almost no difference.
+
+He’s exactly the same age as me.
+( No difference)
+The figures for December are more
+or less the same as the figures for
+November. (a tiny difference)"/>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</ScrollView>

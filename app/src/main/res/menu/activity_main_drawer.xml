@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_profile"
+            android:icon="@drawable/profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/action_score_dash_board"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Score Dashboard" />
+        <item
+            android:id="@+id/action_challenge"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Challenge" />
+        <item
+            android:id="@+id/action_video_chat_history"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Video Chat History" />
+        <item
+            android:id="@+id/action_settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings" />
+    </group>
+
+</menu>
