@@ -9,10 +9,20 @@ import android.widget.TextView;
 public class WelcomeActivity2 extends AppCompatActivity {
 
     private TextView mNextTextView;
+    private TextView mSkipTextView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome2);
+        mSkipTextView = (TextView) findViewById(R.id.skip_2);
+
+        mSkipTextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(WelcomeActivity2.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
 
         mNextTextView = (TextView) findViewById(R.id.next_2);
 

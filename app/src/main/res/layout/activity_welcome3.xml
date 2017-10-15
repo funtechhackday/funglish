@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/lets_go"
     tools:context="com.example.adeogo.funglish.WelcomeActivity1">
 
     <LinearLayout
@@ -15,6 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="FE"
+            android:textColor="@color/text_color1"
             android:textSize="70sp"
             android:gravity="center"
             android:layout_margin="10dp"/>
@@ -24,11 +26,21 @@
             android:layout_height="wrap_content"
             android:text="FUNGLISH"
             android:textSize="15sp"
+            android:textColor="@color/text_color1"
             android:gravity="center"
             android:layout_marginBottom="1dp"/>
 
     </LinearLayout>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/text_color1"
+        android:layout_centerInParent="true"
+        android:text="What are you waiting for?\n
+Learn\nHave Fun\nAnd get paid doing it"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -38,6 +50,7 @@
         android:paddingBottom="10dp"
         android:paddingTop="10dp"
         android:layout_margin="15dp"
+        android:textColor="@color/text_color1"
         android:background="@drawable/rounded_edittext"
         android:layout_alignParentBottom="true"
         android:id="@+id/skip_3"/>
@@ -47,6 +60,7 @@
         android:layout_height="wrap_content"
         android:text="Next"
         android:paddingRight="30dp"
+        android:textColor="@color/text_color1"
         android:paddingLeft="30dp"
         android:paddingBottom="10dp"
         android:paddingTop="10dp"

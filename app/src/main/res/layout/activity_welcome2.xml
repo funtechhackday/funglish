@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/stars"
     tools:context="com.example.adeogo.funglish.WelcomeActivity2">
 
     <LinearLayout
@@ -15,6 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="FE"
+            android:textColor="@color/text_color1"
             android:fontFamily="avenir"
             android:textSize="70sp"
             android:gravity="center"
@@ -24,6 +26,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="FUNGLISH"
+            android:textColor="@color/text_color1"
             android:textSize="15sp"
             android:gravity="center"
             android:layout_marginBottom="1dp"/>
@@ -31,6 +34,21 @@
     </LinearLayout>
 
     <TextView
+        android:textColor="@color/text_color1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:text="Passing each level, you will be awarded\n
+stars and with these stars, you can buy a \n
+video chat session with native English\n
+speakers(or you can right out pay for the online session with cash).\n
+Once you reach a record\n high 2500 stars, we will\n then begin to pay you to host\n
+others in video chat sessions."/>
+
+    <TextView
+        android:textColor="@color/text_color1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Skip"
@@ -44,6 +62,7 @@
         android:layout_alignParentBottom="true"/>
 
     <TextView
+        android:textColor="@color/text_color1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Next"

@@ -21,7 +21,8 @@ public class WelcomeActivity1 extends AppCompatActivity {
         mSkipTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(WelcomeActivity1.this, MainActivity.class);
+                startActivity(intent);
             }
         });
 

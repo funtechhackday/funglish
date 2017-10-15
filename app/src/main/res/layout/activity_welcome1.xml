@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/first"
     tools:context="com.example.adeogo.funglish.WelcomeActivity1">
 
     <LinearLayout
@@ -12,6 +13,7 @@
         android:orientation="vertical"
         android:layout_weight="1">
         <TextView
+            android:textColor="@color/text_color1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="FE"
@@ -20,6 +22,7 @@
             android:layout_margin="10dp"/>
 
         <TextView
+            android:textColor="@color/text_color1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="FUNGLISH"
@@ -30,6 +33,16 @@
     </LinearLayout>
 
     <TextView
+        android:textColor="@color/text_color1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:text="Welcome to the best English learning portal.\nUsing this app,\n you will go on a mega fun journey,\nall the
+way to\n advanced, as you prepare towards the\n ultimate exam, TOEFL"/>
+    <TextView
+        android:textColor="@color/text_color1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Skip"
@@ -43,6 +56,7 @@
         android:id="@+id/skip_1"/>
 
     <TextView
+        android:textColor="@color/text_color1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Next"

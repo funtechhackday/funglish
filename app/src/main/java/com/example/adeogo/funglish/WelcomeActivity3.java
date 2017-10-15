@@ -9,6 +9,7 @@ import android.widget.TextView;
 public class WelcomeActivity3 extends AppCompatActivity {
 
     private TextView mNextTextView;
+    private TextView mSkipTextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +18,16 @@ public class WelcomeActivity3 extends AppCompatActivity {
 
         mNextTextView = (TextView) findViewById(R.id.next_3);
         mNextTextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(WelcomeActivity3.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        mSkipTextView = (TextView) findViewById(R.id.skip_3);
+
+        mSkipTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(WelcomeActivity3.this, MainActivity.class);

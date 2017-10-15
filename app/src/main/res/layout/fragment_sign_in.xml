@@ -14,6 +14,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="FE"
+            android:textColor="@color/text_color1"
             android:textSize="70sp"
             android:gravity="center"
             android:layout_margin="10dp"
@@ -25,6 +26,7 @@
             android:text="FUNGLISH"
             android:textSize="15sp"
             android:gravity="center"
+            android:textColor="@color/text_color1"
             android:id="@+id/fun_english"
             android:layout_marginBottom="1dp"
             android:layout_alignBottom="@+id/fe_logo"/>
@@ -40,6 +42,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Email"
+            android:textColor="@color/text_color1"
             android:layout_alignBottom="@+id/fun_english"
             android:layout_marginTop="30dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
@@ -55,6 +58,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Password"
+            android:textColor="@color/text_color1"
             android:layout_marginTop="10dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:gravity="center"/>
@@ -63,6 +67,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
+            android:textColor="@color/text_color1"
             android:layout_marginRight="15dp"
             android:layout_marginBottom="15dp"/>
 
@@ -70,6 +75,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
+            android:textColor="@color/text_color1"
             android:text="SIGN IN"/>
 
         <LinearLayout
@@ -81,6 +87,7 @@
             android:layout_marginBottom="20dp">
             <TextView
                 android:layout_width="match_parent"
+                android:textColor="@color/text_color1"
                 android:layout_height="wrap_content"
                 android:background="@drawable/rounded_edittext"
                 android:layout_margin="10dp"
@@ -92,6 +99,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/text_color1"
                 android:background="@drawable/rounded_edittext"
                 android:layout_margin="10dp"
                 android:padding="5dp"
@@ -102,6 +110,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/text_color1"
                 android:background="@drawable/rounded_edittext"
                 android:layout_margin="10dp"
                 android:padding="5dp"
@@ -115,6 +124,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
+            android:textColor="@color/text_color1"
             android:text="SIGN UP"
             android:gravity="center"
             android:id="@+id/sign_up_id" />
@@ -123,6 +133,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/text_color1"
         android:text="Terms and Conditions"
         android:id="@+id/terms_and_condi"
         android:layout_margin="3dp"
